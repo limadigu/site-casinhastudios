@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&family=Quicksand:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 80px 0 40px 0;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oculto {
+    display: none !important;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-family: 'Gluten', cursive;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.logo img {
+    width: 33px;
+    height: 29px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.menu-responsivo {
+    position: absolute;
+    top: 87px;
+    right: 10px;
+    border-radius: 6px;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 50px;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 8px;
+}
+
+.redes-sociais i, .menu-responsivo-click i {
+    font-size: 1.6rem;
+}
+
+.hero {
+    height: 600px;
+    background-color: #F4FA6B;
+    display: flex;
+    align-items: center;
+}
+
+.hero p {
+    line-height: 50px;
+}
+
+.hero img {
+    width: 500px;
+    height: 500px;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quem-somos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.quem-somos img {
+    width: 360px;
+    height: 360px;
+}
+
+.expertise {
+    background-color: #7F4FB8;
+    padding: 2px 0 20px 0;
+}
+
+.expertise h3 {
+    color: #FFFFFF;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 6px;
+}
+
+.card h4 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.card i {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contato {
+    background-color: #D751A7;
+    padding: 2px 0 40px 0;
+    color: #FFFFFF;
+}
+
+.contato strong {
+    color: #FFFFFF;
+}
+
+.contato i {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.contato-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contato-info div:last-of-type {
+    text-align: right;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+}
+
+@media screen and (min-width: 1200px) {
+    .oculto-g {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .oculto-g {
+        display: none !important;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+    
+    h4 {
+        font-size: 24px;
+    }
+
+    .hero img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .quem-somos img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card {
+        width: 250px;
+        font-size: 14px;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 991.98px) {
+    .oculto-p {
+        display: none !important;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .hero img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .hero p {
+        line-height: 24px;
+    }
+
+    .quem-somos img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .quem-somos {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 200px;
+        font-size: 12px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 719.98px) {
+    .oculto-p {
+        display: none !important;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .hero {
+        height: unset;
+    }
+
+    .hero img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .hero p {
+        line-height: 24px;
+    }
+
+    .hero .container {
+        flex-direction: column-reverse;
+        padding: 20px 0 20px 0;
+    }
+
+    .quem-somos {
+        font-size: 18px;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    
+    .quem-somos img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .jogos {
+        flex-direction: column;
+    }
+
+    .jogos canvas {
+        width: 100vw !important;
+        height: 100vw !important;
+    }
+
+    .contato-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .contato-info div:last-of-type {
+        text-align: left;
+    }
+
+    footer {
+        flex-direction: column;
+        font-size: 10px;
+        padding: 0 10px 0 10px;
+    }
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasinhaStudios</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e4fa04be0c.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="topo">
+    <header>
+        <nav class="container">
+            <div>
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="CasinhaStudios">
+                    <span class="oculto-p">CasinhaStudios</span>
+                </a>
+            </div>
+            <div class="menu oculto-p">                
+                <a href="#quemsomos" onclick="fecharMenuResponsivo();">Quem somos</a>
+                <a href="#expertise" onclick="fecharMenuResponsivo();">Expertise</a>
+                <a href="#jogos" onclick="fecharMenuResponsivo();">Jogos</a>
+                <a href="#contato" onclick="fecharMenuResponsivo();">Contato</a>
+            </div>
+            <div class="redes-sociais oculto-p">
+                <a href="https://www.instagram.com/casinhastudios"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/casinhastudios"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="menu-responsivo-click oculto-g">
+                <a onclick="abrirMenuResponsivo();" id="menu-responsivo-click-abrir">
+                    <i class="far fa-bars"></i>
+                </a>
+                <a onclick="fecharMenuResponsivo();" id="menu-responsivo-click-fechar" class="oculto">
+                    <i class="far fa-times"></i>
+                </a>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="container">
+                <div>
+                    <h1>
+                        Olá! Nós somos a CasinhaStudios
+                    </h1>
+                    <h2>
+                        Criamos jogos independentes e prestamos consultoria em projetos de gamificação e advergames.
+                    </h2>
+                    <p>
+                        Quando não estamos ocupados jogando =)
+                    </p>
+                </div>
+                <div>
+                    <img src="img/popotu-jogando.png" alt="Popótu jogando">
+                </div>
+            </div>
+        </section>
+    </header>
+    <section id="quemsomos">
+        <div class="container">
+            <h3>Sobre nós</h3>
+            <div class="quem-somos">
+                <div>
+                    <img src="img/popotu-codando.png" alt="Popótu centralizando a DIV">
+                </div>
+                <div>
+                    Somos um estúdio de desenvolvimento de jogos digitais. <br>
+                    Gostamos de contar histórias, desafiar com mecânicas inteligentes e bem pensadas e fazer sorrir.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <h3>Expertise</h3>
+            <div class="cards">
+                <div class="card">
+                    <h4>Jogos</h4>
+                    <i class="fad fa-game-console-handheld"
+                        style="--fa-primary-color: #7F4FB8; --fa-secondary-color: rebeccapurple;"></i>
+                    Desenvolvemos jogos de forma independente. Atualmente estamos trabalhando no jogo Popotu's Beach
+                    Volleyball para Windows, MacOS e iOS.
+                </div>
+                <div class="card">
+                    <h4>Serious games</h4>
+                    <i class="fad fa-id-badge"
+                        style="--fa-primary-color: #7F4FB8; --fa-secondary-color: rebeccapurple;"></i>
+                    Estamos abertos para o desenvolvimento de serious games (jogos cujo objetivo principal não é o
+                    entretenimento), como advergames ou jogos educacionais.
+                </div>
+                <div class="card">
+                    <h4>Gamification</h4>
+                    <i class="fad fa-trophy-alt"
+                        style="--fa-primary-color: #7F4FB8; --fa-secondary-color: rebeccapurple;"></i>
+                    Quer aplicar conceitos do mundo dos jogos ao seu sistema e gostaria de uma consultoria com quem
+                    conhece os dois mundos? Entre em contato: <a
+                        href="mailto:info@casinhastudios.com.br"><strong>info@casinhastudios.com.br</strong></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="jogos">
+        <div class="container">
+            <h3>Breaknoid</h3>
+            <div class="jogos">
+                <div>
+                    Mini-game desenvolvido puramente em JavaScript, utilizando os recursos de HTML5 presentes hoje em
+                    todos os browsers modernos. Gameplay inspirado nos clássicos Breakout e Arkanoid dos anos 80.
+                </div>
+                <div>
+                    <canvas id="mainCanvas" width="500" height="500" style="background-color: white"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="contato">
+        <div class="container">
+            <h3>Entre em contato!</h3>
+            <div class="contato-info">
+                <div>
+                    <h4>E-mail</h4>
+                    <p>
+                        Mande-nos um e-mail: <br>
+                        <a href="mailto:info@casinhastudios.com.br"><strong>info@casinhastudios.com.br</strong></a>
+                    </p>
+                    <p>&nbsp;</p>
+                    <h4>Imprensa</h4>
+                    <p>
+                        Precisa de mais informações? Solicite nosso press kit:<br>
+                        <a href="mailto:press@casinhastudios.com.br"><strong>press@casinhastudios.com.br</strong></a>
+                    </p>
+                </div>
+                <div>
+                    <h4>@casinhastudios</h4>
+                    <p>
+                        <a href="https://www.instagram.com/casinhastudios"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/casinhastudios"><i class="fab fa-twitter"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        CasinhaStudios 2022 - Todos os direitos reservados - Feito com amor em SP por&nbsp;<a
+            href="http://www.simplecode.com.br"><strong>SimpleCode</strong></a>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
