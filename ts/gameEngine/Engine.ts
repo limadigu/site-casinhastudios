@@ -1,6 +1,6 @@
-import { Text } from '../@types/Text'
-import { Game } from '../@types/Game';
-import { GameObject } from '../@types/GameObjects';
+import { Text } from './Text'
+import { Game } from './Game';
+import { GameObject } from './GameObjects';
 export class Key {
     code: string;
     isDown: boolean;

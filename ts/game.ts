@@ -1,7 +1,7 @@
-import { AssetLoader } from '../@types/AssetLoader.js';
-import { Engine } from '../@types/Engine.js';
-import { Game } from '../@types/Game.js';
-import { GameObject, ObjectTypes } from '../@types/GameObjects.js';
+import { AssetLoader } from './gameEngine/AssetLoader.js';
+import { Engine } from './gameEngine/Engine.js';
+import { Game } from './gameEngine/Game.js';
+import { GameObject, ObjectTypes } from './gameEngine/GameObjects.js';
 
 let assets = new AssetLoader();
 

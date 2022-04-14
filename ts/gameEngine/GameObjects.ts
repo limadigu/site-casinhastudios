@@ -1,4 +1,4 @@
-import { Game } from "../@types/Game";
+import { Game } from "./Game";
 
 export enum ObjectTypes {
     Block,
